@@ -19,3 +19,6 @@ make .env file
 - >>> import secrets
 - >>> secrets.token_hex(12)
 - 'eec817a6001dee8c7d2a643c'
+
+- make sqlalchemy wala thing
+- make other classes
