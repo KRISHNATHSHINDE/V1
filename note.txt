@@ -22,3 +22,6 @@ make .env file
 
 - make sqlalchemy wala thing
 - make other classes
+
+make main.py -- start using python main.py
+check get request using postman
