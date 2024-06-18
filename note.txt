@@ -1,0 +1,21 @@
+pip install pipenv
+
+pipenv shell
+
+
+Pipenv is a dependency manager for Python projects. It aims to bring the best of all packaging worlds (bundled, development, and deployment) to the Python world. It harnesses Pipfile, pip, and virtualenv, providing a seamless experience for managing Python project dependencies.
+
+// INSTALL DEPENDENCIES
+
+pipenv install flask flask_restx flask_sqlalchemy flask_jwt_extended
+
+// CREATE API
+make config.py in backend
+- make class called config
+- pipenv install python_decouple -- locates secret key etc from env file
+
+make .env file
+- make a SECRET_KEY using python
+- >>> import secrets
+- >>> secrets.token_hex(12)
+- 'eec817a6001dee8c7d2a643c'
